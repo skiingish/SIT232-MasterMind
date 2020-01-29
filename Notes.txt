@@ -1,0 +1,102 @@
+neeed to ghet get user guess to draw all the buttons
+
+get their input and push that to the guess game
+
+"current state"
+
+game runs pushing value "1234" to it
+once quit
+runs draw app
+if red button is press and then the game is quit
+runs the master mind game but pushes a different squeance to game
+
+
+while legnth of array is less then 4
+
+lopp VVV
+
+event click button add(button option to array)
+repeart
+
+once array is equal to 4 exit while loop
+
+convert array to string and pass to guess
+
+
+update 19/4/19 ///////////////////////////////////////////////
+
+need to build a new class, to push the guess to based on the gamelogic class which
+then will need to return to the main loop to guess again
+
+
+move the guess operation in to it's own class and treat each guess as it's own object to be pushed to game logic
+untill the player guesses right
+
+Update 20/4/19
+
+code breaker logic and userguesss are working, need to tidy up the user interface,
+
+display the guess result on screen as well but almost there!!!
+
+plus do alot of code refactoring and renaming. 
+
+
+update 22/4/19
+
+create a interface that has a list field that adds everything that needs to be drawn to the window,
+then use a for wach loop to draw all inhearded classes. 
+
+update 29/4/19
+
+deleted the unneeded class,
+will need to put each class in the program section in it's own class file.
+figure out how to display the time as well. (change time to include mins and seconds)
+
+add in what happens when the user runs out of guesses (add a more creative version)
+
+create a parent class for buttons, shapes(squares) and cicles
+
+still got to refactor the code in user guess, move things to different classes, get the intface to draw everything regardless of what it is
+create the delgate for a mouse over event and for a mouse click
+
+idea for displaying the correct time
+using System;
+using System.Diagnostics;
+class MainClass {
+  public static void Main (string[] args) {
+    Console.WriteLine ("Hello World");
+    var timer = new Stopwatch();
+    timer.Start();
+    
+    for(int i = 0; i < 1000000; i++)
+    {
+      TimeSpan ts = timer.Elapsed;
+    string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
+            ts.Hours, ts.Minutes, ts.Seconds,
+            ts.Milliseconds / 10);
+        Console.WriteLine("RunTime " + elapsedTime);
+    }
+  }
+}
+
+update 1/05/19
+
+maybe fix the time
+
+maybe create a parent gui creator and then create a new child gui used for the welcome screen, with insurctions
+
+refactor, commet and wrap...
+
+update 3/05/19 
+
+added in the code required to process to hover over event. 
+
+started the code for the welcome screen,
+
+need to add in the logic to exit the welcome screen and also the mouse over for the button. 
+
+update 4/05/19
+
+figure out what to do about the hover on the ready button,
+
+then comment refactor and wrap.
