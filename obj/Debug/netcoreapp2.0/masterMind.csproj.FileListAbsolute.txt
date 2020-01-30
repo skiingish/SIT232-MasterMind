@@ -1,0 +1,11 @@
+/Users/sean/code/masterMind/bin/Debug/netcoreapp2.0/masterMind.deps.json
+/Users/sean/code/masterMind/bin/Debug/netcoreapp2.0/masterMind.runtimeconfig.json
+/Users/sean/code/masterMind/bin/Debug/netcoreapp2.0/masterMind.runtimeconfig.dev.json
+/Users/sean/code/masterMind/bin/Debug/netcoreapp2.0/masterMind.dll
+/Users/sean/code/masterMind/bin/Debug/netcoreapp2.0/masterMind.pdb
+/Users/sean/code/masterMind/obj/Debug/netcoreapp2.0/masterMind.csprojAssemblyReference.cache
+/Users/sean/code/masterMind/obj/Debug/netcoreapp2.0/masterMind.csproj.CoreCompileInputs.cache
+/Users/sean/code/masterMind/obj/Debug/netcoreapp2.0/masterMind.AssemblyInfoInputs.cache
+/Users/sean/code/masterMind/obj/Debug/netcoreapp2.0/masterMind.AssemblyInfo.cs
+/Users/sean/code/masterMind/obj/Debug/netcoreapp2.0/masterMind.dll
+/Users/sean/code/masterMind/obj/Debug/netcoreapp2.0/masterMind.pdb
